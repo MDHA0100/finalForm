@@ -12,7 +12,8 @@ void addStudent(int _num)
 	{
 		cout << "Enter the ID: ";
 		cin >> object[0].ID;
+
+		ofstream file;
+		file.open("dataBase/" + object[0].ID + ".txt");
 	}
-
-
 }

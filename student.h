@@ -8,6 +8,7 @@ using namespace std;
 
 class Student
 {
+public:
 	int ID;
 	string fName;
 	string lName;
@@ -17,8 +18,12 @@ class Student
 	string major;
 	int stage;
 	string system;
-
+	string email;
+	string PASS;
+	int phoneNum;
 };
+
+Student object[1];
 
 // this library will contain all the function used in the student section
 

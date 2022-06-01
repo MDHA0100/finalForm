@@ -142,8 +142,12 @@
     <ClCompile Include="finalForm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="student.h" />
     <ClInclude Include="teacher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="finalForm.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
